@@ -1,7 +1,8 @@
 .wrapper {
     width: 200px;
      height: 350px;
-   background-color: rgb(228, 228, 241);
+     background: rgb(232,137,7);
+     background: linear-gradient(0deg, rgba(232,137,7,1) 0%, rgba(128,67,199,1) 56%);
    margin: 0 auto;
    padding: 10px;
    position: relative;
@@ -14,6 +15,7 @@
    justify-content: space-between;
    min-height: 300px;
    align-items: center;
+   color: azure;
    }
 
    .card img {
