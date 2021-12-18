@@ -20,7 +20,7 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 50%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 75% 86%, 75% 100%, 49% 85%, 0 85%);
    }
 
    .overlay {
@@ -37,5 +37,5 @@
     }
 
     .wrapper:hover .overlay{
-        height: 70%;
+        height: 43%;
       }
